@@ -320,3 +320,317 @@ footer{
         font-size: 26px;
     }
 }
+
+.service-applicant{
+    background:#f1f1f1;
+}
+.container-service-applicant{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.services-list-applicant{
+    width: 35%;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 5px #252525;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+}
+.icon-title{
+    display: flex;
+    align-items: baseline;
+}
+.container-i{
+    background: #132D46;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    margin-right: 15px;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+}
+.icon-title .container-i i{
+    font-size: 30px;
+    color:#f1f1f1;
+}
+.icon-title h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    color:  #0575E6;
+}
+.hover-applicant p{
+    font-weight: 300;
+    text-align: justify;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.container-form{
+    width: 100%;
+    background: #005C97;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 150px;
+    display: flex;
+}
+.container-form-image{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 25px;
+}
+.container-form-contents{
+    width: 40%;
+    height: 100%;
+    padding-top: 15px;
+}
+.container-form-input{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 25px;
+}
+.container-form-input input{
+    width: 50%;
+    height: 25px;
+    border: solid 1px white;
+    border-radius: 8px;
+    padding: 5px;
+}
+.button{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #f1f1f1;
+    color: #005C97;
+    font-size: 16px;
+    border: solid 1px #005C97;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.button i{
+    margin-left: 10px;
+}
+.container-form-contents h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    color:  #ffffff;
+}
+.image-email{
+    width: 30%;
+    height: 80%;
+}
+.container-service-company{
+    padding-top: 40px ;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.container-servirce-company-contents{
+    width: 100%;
+    
+    margin: auto;
+    justify-content: space-around;
+    display: flex;
+}
+.service-company{
+    width: 32%;
+    height: 100%;
+    padding: 10px 10px 15px 10px;
+    display: flex;
+}
+.icon-company{
+    width: 15%;
+    text-align: center;
+    font-size: 30px;
+}
+.icon-description{
+    width: 85%;
+    padding: 5px;
+}
+.icon-description h4{
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+}
+.icon-description p{
+    padding: 5px 0px;
+    font-weight: 300;
+    text-align: justify;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+/*.container-service-company{
+    padding-top: 60px ;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.container-servirce-company-contents{
+    display: flex;
+}
+.container-img-company{
+    width: 48%;
+    position: relative;
+}
+.image-background-company{
+    width: 100%;
+    height: 100%;
+}
+.wave-company{
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+.image-company{
+    position: absolute;
+    left: 17%;
+    width: 92%;
+    height: 100%;
+}
+.contens-list-service{
+    width: 48%;
+    padding-left: 10%;
+}
+.services-list-company{
+    width: 70%;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 5px #252525;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    display: flex;
+}
+.services-list-company h4{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+    width: 70%;
+}
+.container-i-company{
+    background: #132D46;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    width: 30%;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-i-company i{
+    font-size: 30px;
+    color:#f1f1f1;
+}*/
+
+.options{
+    position: relative;
+    height: 100px;
+    top: 0;
+    background: none;
+    transition: none;
+    text-align: right;
+    margin-right: 50px;
+}
+.options a{
+    display: inline block;
+    line-height: 100px;
+    margin: 0 10px;
+    transition: none;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 8px 15px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+#check{
+    display: none;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+.title{
+    color: #0575E6;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+header .text-header{
+    display: flex;/*el display flex lo alinea horizontalmente porque
+    hay espacio*/
+    height: 430px;
+    width: 60%;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    flex-direction: column;/*si tiene display flex, esto lo pone 
+    en vertical*/
+    padding: 50px 60px;
+}
+.text-header h1{
+    font-size: 42px;
+    color: white;
+}
+.text-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    margin-top: 20px;
+}
+.text-header div{
+    margin-top: 20px;
+}
+.image-front{
+    position: absolute;
+    width: 45%;
+    height: 80%;
+    top: 20%;
+    left: 50%;
+    z-index: 2;
+}
+.container-about-the-product{
+    display: flex;
+    justify-content: space-evenly;
+}
+.image-about-the-product{
+    width: 45%;
+    height: 400px;
+}
+.container-about-the-product .contents-text{
+    width: 48%;
+}
+.contents-text p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.buttons-download{
+    display: flex;
+    justify-content: space-evenly;
+}
+.buttons-download button{
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    color: white;
+    background: #005C97;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 16px;
+    border: solid 1px #005C97;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.buttons-download button i{
+    margin-right: 10px;
+}
+
