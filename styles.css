@@ -70,6 +70,7 @@ nav{
     display: none;
 }
 
+
 .service-applicant{
     background:#f1f1f1;
 }
@@ -277,3 +278,109 @@ nav{
     font-size: 30px;
     color:#f1f1f1;
 }*/
+=======
+.options{
+    position: relative;
+    height: 100px;
+    top: 0;
+    background: none;
+    transition: none;
+    text-align: right;
+    margin-right: 50px;
+}
+.options a{
+    display: inline block;
+    line-height: 100px;
+    margin: 0 10px;
+    transition: none;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 8px 15px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+#check{
+    display: none;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+.title{
+    color: #0575E6;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+header .text-header{
+    display: flex;/*el display flex lo alinea horizontalmente porque
+    hay espacio*/
+    height: 430px;
+    width: 60%;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    flex-direction: column;/*si tiene display flex, esto lo pone 
+    en vertical*/
+    padding: 50px 60px;
+}
+.text-header h1{
+    font-size: 42px;
+    color: white;
+}
+.text-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    margin-top: 20px;
+}
+.text-header div{
+    margin-top: 20px;
+}
+.image-front{
+    position: absolute;
+    width: 45%;
+    height: 80%;
+    top: 20%;
+    left: 50%;
+    z-index: 2;
+}
+.container-about-the-product{
+    display: flex;
+    justify-content: space-evenly;
+}
+.image-about-the-product{
+    width: 45%;
+    height: 400px;
+}
+.container-about-the-product .contents-text{
+    width: 48%;
+}
+.contents-text p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.buttons-download{
+    display: flex;
+    justify-content: space-evenly;
+}
+.buttons-download button{
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    color: white;
+    background: #005C97;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 16px;
+    border: solid 1px #005C97;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.buttons-download button i{
+    margin-right: 10px;
+}
+
